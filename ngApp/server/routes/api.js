@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const  video = require('../models/video');
-const db = "mongodb://karan:karan1992@ds151060.mlab.com:51060/videoplayer";
+const db = "mongodb://yourname@password.mlab.com:51060/db";
 mongoose.Promise = global.Promise;
 mongoose.connect(db,function(err){
 if(err){
